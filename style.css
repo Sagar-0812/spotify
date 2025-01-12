@@ -16,8 +16,8 @@ header {
 
 /* Button Styling */
 .b {
-    color: black;
     background-color: white;
+    color: black;
     height: 50px;
     width: 120px;
     margin: 20px 20px;
@@ -174,13 +174,40 @@ img{
 }
 .h{
     padding: 50px;
-    margin-top: 55px;
+    margin-top: 70px;
     margin-left: -1500px;
     height: 50px;
-    background: white;
+    background:linear-gradient(to right,pink,orange,red,blue);
     width: 1850px;
     display: flex;
 }
+.lastcontent{
+    margin-top: 63px;
+    color: black;
+    background: linear-gradient(to right,orange,pink,blue);
+    height: 90px;
+    width: 96.7em;
+    margin-left: -75em;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.parag{
+    margin-top: 20px;
+    color: white;
+    font-size: 1.32em;
+}
 .tubbon{
-    background-color: black;
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+    border-radius: 100px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.tubbon:hover{
+    background-color: cornflowerblue;
+    color: white;
+    transform: scale(1.1);
 }
