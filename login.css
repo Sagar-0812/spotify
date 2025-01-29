@@ -5,7 +5,7 @@
 }
 .logo{
     background: linear-gradient(to bottom, #242424ff, black);
-    height: 150vh;
+    height: 130vh;
     display: flex;
     justify-content: center;
     align-items: center;
