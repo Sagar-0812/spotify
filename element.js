@@ -1,4 +1,4 @@
-// document.addEventListener('', function() {
+
     let a = document.querySelector('.b');
     a.addEventListener('click', () => {
         window.location.href = "signup.html";
