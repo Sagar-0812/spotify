@@ -20,8 +20,9 @@ span{
     color: #1ed662ff;
 }
 section{
-    height: 250vh;
+    height: 230vh;
     background: linear-gradient(to bottom,#212121ff,#121212ff);
+    width: 100%;
     
 }
 img{
@@ -78,6 +79,17 @@ p{
     padding: 0;
 }
 .Fc{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1px;
+}
+.final{
+    color: white;
+    margin: 30px 20px;
+    padding: 0;
+}
+.finalcode{
+    display: flex;
     display: flex;
     justify-content: flex-start;
     gap: 1px;
