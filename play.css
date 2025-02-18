@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background:black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+h1{
+    font-family: "Raleway", serif;
+    font-size: 2.5em;
+}
+span{
+    color: #1ed662ff;
+}
+section{
+    height: 250vh;
+    background: linear-gradient(to bottom,#212121ff,#121212ff);
+    
+}
+img{
+    margin: 20px;
+    width: 190px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    height: 25vh;
+}
+.image{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1px;
+}
+p{
+    margin: 0px 10px;
+    padding: 0px 20px;
+    color: white;
+    font-family: "Raleway",serif;
+    text-align: left;
+}
+.psx
+{
+    border:0;
+    border-radius: 0%;    
+}
+.ps{
+    margin: 30px 30px;
+    padding: 0px 0px;
+    color: white;
+}
+.popular{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1px;
+}
+.radio{
+    color: white;
+    margin: 30px 20px;
+    padding: 0;
+}
+.radiolist{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1px;
+}
+.rsx{
+    text-align: left;
+    padding: 10px;
+}
+.fch{
+    color: white;
+    margin: 30px 20px;
+    padding: 0;
+}
+.Fc{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1px;
+}

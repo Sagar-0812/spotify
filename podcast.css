@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #25785fff;
+    height: 200px;
+    margin: 0px 0px;
+}
+h1{
+    margin: 0px 20px;
+    padding: 80px 40px;
+    font-size: 5.5em;
+    color: white;
+    font-family: "Raleway",serif;
+}
+section{
+    height: 215vh;
+    width:100%;
+    margin: 0;
+    background: linear-gradient(to bottom,#123027,rgb(18, 18, 18)90%);   
+}
+#bp{
+    margin: 0;
+    padding: 10px 60px;
+    font-size: 2em;
+}
+img{
+    height: 25vh;
+}
+.container{
+    margin: 0px 30px;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.sub{
+    height: 19em;
+    border: 3px solid #123027 ;
+    margin: 20px 0px;
+}
+p{
+    font-size: 1.5em;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+.arijit{
+    padding: 20px 0px;
+    text-align: center;
+    font-family: none;
+}
+.ff{
+    margin: 10px 30px;
+    padding: 0;
+  font-size: 2em;
+}
+.Topodcast
+{
+    display: flex;
+    justify-content: flex-start;
+    /* gap: 5px; */
+}
+.fp1{
+    height: 19em;
+    border: 3px solid #123027 ;
+    margin: 20px 20px;
+}
+.cat{
+    font-size: 2.5em;
+    margin: 10px;
+    padding: 10px;
+}
+.lefttext{
+    top: 10;
+    color: white;
+    position: absolute;
+    padding: 0PX 20PX;
+    font-size: 2em;
+}
+.Categories
+{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
+    padding: 10px 10px;
+}

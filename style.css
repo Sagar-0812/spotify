@@ -211,3 +211,9 @@ img{
     color: white;
     transform: scale(1.1);
 }
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+}
